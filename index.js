@@ -32,7 +32,6 @@ module.exports = {
     "value-no-vendor-prefix": true,
     "length-zero-no-unit": true,
     "unit-case": "lower",
-    "selector-no-empty": true,
     "value-keyword-case": "lower",
     "shorthand-property-no-redundant-values": true,
     "selector-no-qualifying-type": [true, {
@@ -78,10 +77,10 @@ module.exports = {
       ignore: ["after-comment"],
       ignoreAtRules: ["mixin", "import"]
     }],
-    "rule-non-nested-empty-line-before": ["always-multi-line", {
+    "rule-empty-line-before": ["always-multi-line", {
       ignore: ["after-comment"]
     }],
-    "rule-nested-empty-line-before": ["always-multi-line", {
+    "rule-empty-line-before": ["always-multi-line", {
       except: ["first-nested"],
       ignore: ["after-comment"]
     }],
