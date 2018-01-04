@@ -14,16 +14,13 @@ module.exports = {
     "tmi/bem-no-element-nesting": true,
     "media-feature-name-blacklist": [
       "max-width", {
-        "severity": "warning",
-        "message": "Avoid 'max-width' unless absolutely necessary. Sites should be built mobile first",
+        "severity": "error",
+        "message": "Unexpected 'max-width' media query. Use 'min-width' media queries for a mobile-first approach.",
       }
     ],
     "color-hex-case": "lower",
     "color-hex-length": "short",
-    "declaration-no-important": [true, {
-      "severity": "warning",
-      "message": "Avoid !important if possible. It usually indicates a deeper specificity problem."
-    }],
+    "declaration-no-important": true,
     "number-no-trailing-zeros": true,
     "selector-max-id": 0,
     "string-no-newline": true,
