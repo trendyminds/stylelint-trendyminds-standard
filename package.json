@@ -1,6 +1,6 @@
 {
   "name": "stylelint-trendyminds-standard",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Standard shareable config for stylelint",
   "keywords": [
     "stylelint",
@@ -18,7 +18,7 @@
     "index.js"
   ],
   "dependencies": {
-    "stylelint": "7.7.1",
+    "stylelint": "8.4.0",
     "stylelint-bem-no-element-nesting": "1.0.6",
     "stylelint-em-media-query": "1.0.2",
     "stylelint-no-mismatching-module-file": "1.0.3",

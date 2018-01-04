@@ -15,18 +15,17 @@ module.exports = {
     "media-feature-name-blacklist": [
       "max-width", {
         "severity": "warning",
-        "message": "Expected 'min-width' query because we build with a mobile-first approach. A 'max-width' query should only be used in very rare occasions.",
+        "message": "Avoid 'max-width' unless absolutely necessary. Sites should be built mobile first",
       }
     ],
     "color-hex-case": "lower",
     "color-hex-length": "short",
     "declaration-no-important": [true, {
       "severity": "warning",
-      "message": "Using !important is often a patch on a larger specificity issue. Only use !important in very rare occasions."
+      "message": "Avoid !important if possible. It usually indicates a deeper specificity problem."
     }],
-    "number-leading-zero": "never",
     "number-no-trailing-zeros": true,
-    "selector-no-id": true,
+    "selector-max-id": 0,
     "string-no-newline": true,
     "property-no-vendor-prefix": true,
     "value-no-vendor-prefix": true,
@@ -47,13 +46,6 @@ module.exports = {
     "declaration-colon-space-before": "never",
     "declaration-block-trailing-semicolon": "always",
     "declaration-block-no-duplicate-properties": true,
-    "declaration-property-value-blacklist": [
-      { "/margin/": ["/-/"] },
-      {
-        "severity": "warning",
-        "message": "Using a negative margin to pull an element closer to another can be unreliable and cause browser consistency issues. If possible, consider an alternative approach to position this."
-      }
-    ],
     "declaration-block-no-shorthand-property-overrides": true,
     "indentation": 2,
     "block-closing-brace-space-before": "always-single-line",
