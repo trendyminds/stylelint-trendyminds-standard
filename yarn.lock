@@ -1781,13 +1781,6 @@ stylelint-bem-no-element-nesting@1.0.6:
     style-search "^0.1.0"
     stylelint "^7.0.0"
 
-stylelint-em-media-query@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/stylelint-em-media-query/-/stylelint-em-media-query-1.0.2.tgz#879a5fba329411416adfce67e8e371e845f3836a"
-  dependencies:
-    style-search "^0.1.0"
-    stylelint "^7.0.0"
-
 stylelint-no-mismatching-module-file@1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/stylelint-no-mismatching-module-file/-/stylelint-no-mismatching-module-file-1.0.3.tgz#81eb93b4e2db7efcbfd7ca5b72b2a72064baf006"
